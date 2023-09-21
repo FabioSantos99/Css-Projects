@@ -292,6 +292,68 @@ body{
     transform: rotateZ(45deg);
     box-shadow: -7px -7px 0 0 #333;
   }
+
+  /***************************************************************************************HIGHSCRAPPER TWO************************/
+
+  .highscraper2{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 43px;
+    height: 50px;
+    transform: rotateZ(45deg);
+    top: -1px;
+    left: 163px;
+    z-index: 999;
+  }
+
+  .highscraper2 .wall-oneA{
+    position: absolute;
+    display: block;
+    background-color: #cb7a4d;
+    width: 44px;
+    height: 214px;
+    transform: skewX(45deg);
+    top: -164px;
+    left: -107px;
+  }
+
+  .highscraper .wall-oneA div{
+    position: absolute;
+    display: block;
+    background-color: black;
+    opacity: 0.2;
+    width: 60px;
+    height: 2px;
+    top: 10px;
+    left: 0px;
+    
+    box-shadow: 0 -8px 0 0 black,
+                0 10px 0 0 black,
+                0 20px 0 0 black,
+                0 30px 0 0 black,
+                0 40px 0 0 black,
+                0 50px 0 0 black,
+                0 60px 0 0 black,
+                0 70px 0 0 black,
+                0 80px 0 0 black,
+                0 90px 0 0 black,
+                0 100px 0 0 black,
+                0 110px 0 0 black,
+                0 120px 0 0 black,
+                0 130px 0 0 black;
+  }
+
+  .highscraper2 .wall-twoA {
+    position: absolute;
+    display: block;
+    background-color: #cb7a4d;
+    width: 214px;
+    height: 49px;
+    transform: skewY(45deg);
+    top: -106px;
+    left: -171px; 
+  }
   
   /***************************************************************/
   /*********************** warehouse *****************************/
@@ -494,6 +556,41 @@ body{
     transform: rotateZ(-45deg);
     top: 126px;
     left: 7px;
+  }
+
+  .pizzaria {
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 70px;
+    height: 50px;
+    transform: rotateZ(45deg);
+    top: 105px;
+    left: 212px;
+  }
+  .pizzaria .wall1 {
+      position: absolute;
+      display: block;
+      background-color: #F76700;
+      width: 52px;
+      height: 25px;
+      top: 11px;
+      left: 2px;
+      transform: skewX(45deg);
+  }
+
+
+  .pizzaria .wall2 {
+
+    position: absolute;
+    display: block;
+    background-color: #F76700;
+    width: 25px;
+    height: 49px;
+    transform: skewY(45deg);
+    top: -26px;
+    left: 41px;
+  
   }
   
   .leaves{
